@@ -1,2 +1,2 @@
 # cAutomations
- Automation inclues and scripts in C for other libraries
+ Library for headers and small automations and scripts for other libaries.
