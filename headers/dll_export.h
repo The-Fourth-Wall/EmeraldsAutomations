@@ -1,8 +1,6 @@
 #ifndef __DLL_EXPORT_H_
 #define __DLL_EXPORT_H_
 
-#include "../../cSuite.h"
-
 #ifdef _WIN32
     #ifdef WIN_EXPORT
         #ifdef __GNUC__

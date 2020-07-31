@@ -1,8 +1,6 @@
 #ifndef __MAIN_AUTOMATIONS_H_
 #define __MAIN_AUTOMATIONS_H_
 
-#include "../../cSuite.h"
-
 #if __THROW_THE_TRASH_OUT == true
     #define _custom_entry_function(...) \
         int main(int argc, char **argv) { \

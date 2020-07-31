@@ -1,8 +1,6 @@
 #ifndef __SYNTACTIC_SUGAR_H_
 #define __SYNTACTIC_SUGAR_H_
 
-#include "../../cSuite.h"
-
 /**
  * @macro: BLOCK
  * @desc: Expands to a do while loop that runs once

@@ -1,8 +1,6 @@
 #ifndef __SETUP_DEFINITIONS_H_
 #define __SETUP_DEFINITIONS_H_
 
-#include "../../cSuite.h"
-
 #define __THROW_THE_TRASH_OUT true
 
 /* Find C version for declaring cross version implementations */

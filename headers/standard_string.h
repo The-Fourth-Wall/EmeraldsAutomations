@@ -1,7 +1,7 @@
 #ifndef __STANDARD_STRING_H_
 #define __STANDARD_STRING_H_
 
-#include "../../cSuite.h"
+#include "dll_export.h"
 
 /**
  * @func: _strlen

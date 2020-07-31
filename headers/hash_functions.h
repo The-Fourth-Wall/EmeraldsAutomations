@@ -1,7 +1,7 @@
 #ifndef __HASH_FUNCTIONS_H_
 #define __HASH_FUNCTIONS_H_
 
-#include "../../cSuite.h"
+#include "dll_export.h"
 
 /**
  * @func: _simple_integer_hash
