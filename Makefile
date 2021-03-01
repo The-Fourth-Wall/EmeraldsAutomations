@@ -22,9 +22,10 @@ all: default
 
 default:
 	$(CC) $(LIB_OPT) $(VERSION) $(FLAGS) $(WARNINGS) $(REMOVE_WARNINGS) $(UNUSED_WARNINGS) $(LIBS) -o $(OUTPUT) $(INPUT)
-	$(RM) -r export && mkdir export
-	mv $(OUTPUT) export/
-	cp src/$(NAME)/headers/* export/
+	$(RM) -r export && mkdir export && mkdir export/$(NAME) && mkdir export/$(NAME)/headers
+	mv $(OUTPUT) export
+	cp src/$(NAME)/headers/* export/$(NAME)/headers/
+	cp src/$(NAME).h export/
 
 lib: default
 
