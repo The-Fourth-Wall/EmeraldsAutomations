@@ -1,4 +1,4 @@
-#include "../../cSuite.h"
+#include "headers/standard_string.h"
 
 size_t _strlen(const char *s) {
     const char *ptr = s;

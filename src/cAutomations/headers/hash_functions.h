@@ -3,6 +3,8 @@
 
 #include "dll_export.h"
 
+#include <stdlib.h>
+
 /**
  * @func: _simple_integer_hash
  * @desc: Performs integer hashing

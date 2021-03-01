@@ -1,4 +1,4 @@
-#include "../../cSuite.h"
+#include "headers/hash_functions.h"
 
 size_t _simple_integer_hash(void *ptr) {
     size_t key = (size_t)ptr;

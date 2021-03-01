@@ -3,6 +3,8 @@
 
 #include "dll_export.h"
 
+#include <string.h>
+
 /**
  * @func: _strlen
  * @desc: Accurate equivalent of string.h 'strlen' function

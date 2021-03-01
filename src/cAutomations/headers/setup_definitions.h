@@ -33,7 +33,7 @@
 #elif __x86_64__ || __ppc64__
     #define __ENVIRONMENT_NIX_64
     #define __MAX_UINT (18446744073709551615UL)
-#elif
+#elif __i386__
     #define __ENVIRONMENT_NIX_32
     #define __MAX_UINT (4294967295U)
 
