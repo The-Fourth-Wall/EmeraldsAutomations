@@ -1,7 +1,7 @@
 NAME = cAutomations
 
 CC = clang
-LIB_OPT = -O2 -shared -fPIC
+LIB_OPT = -O2 -c
 OPT = -O2
 VERSION = -std=c11
 
@@ -12,7 +12,7 @@ REMOVE_WARNINGS =
 LIBS = 
 
 INPUT = src/$(NAME)/*.c
-OUTPUT = $(NAME).so
+OUTPUT = $(NAME).a
 
 #TESTFILES = ../src/$(NAME)/*.c
 TESTINPUT = $(NAME).spec.c
@@ -21,7 +21,9 @@ TESTOUTPUT = spec_results
 all: default
 
 default:
-	$(CC) $(LIB_OPT) $(VERSION) $(FLAGS) $(WARNINGS) $(REMOVE_WARNINGS) $(UNUSED_WARNINGS) $(LIBS) -o $(OUTPUT) $(INPUT)
+	$(CC) $(LIB_OPT) $(VERSION) $(FLAGS) $(WARNINGS) $(REMOVE_WARNINGS) $(UNUSED_WARNINGS) $(LIBS) $(INPUT)
+	ar -rcs $(OUTPUT) *.o
+	$(RM) -r *.o
 	$(RM) -r export && mkdir export && mkdir export/$(NAME) && mkdir export/$(NAME)/headers
 	mv $(OUTPUT) export
 	cp src/$(NAME)/headers/* export/$(NAME)/headers/
