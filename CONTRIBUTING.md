@@ -1,2 +1,2 @@
-# Contributing to cAutomations.  
-Adding an [issue](https://github.com/Oblivious-Oblivious/cAutomations/issues)
+# Contributing to Automations.  
+Adding an [issue](https://github.com/Oblivious-Oblivious/EmeraldsAutomations/issues)
