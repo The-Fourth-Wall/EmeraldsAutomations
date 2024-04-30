@@ -1,9 +1,9 @@
 #ifndef __STANDARD_STRING_H_
 #define __STANDARD_STRING_H_
 
-#include "dll_export.h"
+#include "../dll_export.h"
 
-#include <string.h>
+#include <stdlib.h>
 
 /**
  * @func: _strlen

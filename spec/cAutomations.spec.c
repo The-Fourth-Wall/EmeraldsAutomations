@@ -1,7 +1,10 @@
-#include "cAutomations.spec.h"
+#include "../libs/cSpec/export/cSpec.h"
+#include "hash_functions/hash_functions.module.spec.h"
+#include "standard_string/standard_string.module.spec.h"
 
-int main(void) {
-    if(1 == 1) printf("Test (1) passed\n");
+spec_suite({
+  T_hash_functions();
+  T_standard_string();
+});
 
-    return 0;
-}
+int main(void) { run_spec_suite("all"); }

@@ -1,7 +1,7 @@
 #ifndef __HASH_FUNCTIONS_H_
 #define __HASH_FUNCTIONS_H_
 
-#include "dll_export.h"
+#include "../dll_export.h"
 
 #include <stdlib.h>
 
