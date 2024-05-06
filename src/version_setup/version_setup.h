@@ -1,5 +1,5 @@
-#ifndef __SETUP_DEFINITIONS_H_
-#define __SETUP_DEFINITIONS_H_
+#ifndef __VERSION_SETUP_H_
+#define __VERSION_SETUP_H_
 
 #define __THROW_THE_TRASH_OUT true
 

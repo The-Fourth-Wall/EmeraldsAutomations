@@ -1,3 +1,3 @@
 #include "../../libs/cSpec/export/cSpec.h"
 
-module(T_standard_string, {});
+module(T_dll_export, {});
